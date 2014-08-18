@@ -4,8 +4,6 @@
 
 package com.onepointltd.junit.rules.host;
 
-import com.onepointltd.junit.rules.host.HostnameIgnore;
-import com.onepointltd.junit.rules.host.HostnameCheckRule;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
