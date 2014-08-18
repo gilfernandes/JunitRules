@@ -2,7 +2,7 @@
  Onepoint Ltd 2014
  */
 
-package com.onepointltd.junit.rules;
+package com.onepointltd.junit.rules.host;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -2,7 +2,7 @@
  OSSCUBE 2014
  */
 
-package com.onepointltd.junit.rules;
+package com.onepointltd.junit.rules.host;
 
 import org.junit.Assume;
 import org.junit.runners.model.Statement;

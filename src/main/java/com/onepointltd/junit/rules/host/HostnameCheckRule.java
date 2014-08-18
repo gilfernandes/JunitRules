@@ -1,7 +1,7 @@
 /*
  OSSCUBE 2014
  */
-package com.onepointltd.junit.rules;
+package com.onepointltd.junit.rules.host;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

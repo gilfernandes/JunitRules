@@ -2,8 +2,10 @@
  OSSCUBE 2014
  */
 
-package com.onepointltd.junit.rules;
+package com.onepointltd.junit.rules.host;
 
+import com.onepointltd.junit.rules.host.HostnameIgnore;
+import com.onepointltd.junit.rules.host.HostnameCheckRule;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -12,8 +14,8 @@ import org.junit.Test;
  * Used to check the hostname rule.
  * @author onepoint
  */
-@HostnameIgnore(names = {"onepoint-17L"}, not=true) // Means: if the host name is not ... ignore
-public class HostnameCheckRuleIgnoreNotTest {
+@HostnameIgnore(names = {"onepoint-17L"}) // Means: if the host if ... ignore
+public class HostnameCheckRuleIgnoreTest {
 
     /**
      * Activates the rule.
